@@ -1,4 +1,6 @@
-## Setup environment
+## SemEval-2023 Task 6 Sub-task 3: Court Judgement Prediction with Explanation (CJPE).
+
+### Setup environment
 ```
 conda create -p .env/ python=3.8
 pip install -r requirements.txt
@@ -22,7 +24,7 @@ python build_vocab.py --dataset semeval --frequency-threshold 100
 Currenly we're using hard code to set tfidf_feature_size. For SemEval dataset, please change the values tfidf_feature_size in the file model/longformer_tfidf.py.
 
 
-##### Train & evaluate model:
+#### Train & evaluate model:
 ```
 python train_longformer_tfidf.py \
     --max-length 4096 \
