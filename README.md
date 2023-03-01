@@ -59,7 +59,7 @@ python train_text_classification.py \
 ### Train hierarchical model
 ```
 python train_hierarchical_model.py \
-    --max-length 512 \
+    --max-length 4096 \
     --model-path allenai/longformer-large-4096 \
     --save-dir models/hierarchical/longformer-large \
     --log-dir results/hierarchical/longformer-large \
