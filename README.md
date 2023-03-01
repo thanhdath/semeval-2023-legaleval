@@ -61,8 +61,8 @@ python train_text_classification.py \
 python train_hierarchical_model.py \
     --max-length 512 \
     --model-path allenai/longformer-large-4096 \
-    --save-dir models/hierarchical/roberta-large \
-    --log-dir results/hierarchical/roberta-large \
+    --save-dir models/hierarchical/longformer-large \
+    --log-dir results/hierarchical/longformer-large \
     --truncation-side left \
     --dataset ildc \
     --seed 100 \
