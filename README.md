@@ -75,3 +75,6 @@ python train_hierarchical_model.py \
 ### Experiment Results
 
 In SemEval 2023 Task 6, we (username: bluesky) achieve top-1 ranking in the subtask C1 (Legal Judgment Prediction) and top-2 ranking in  the subtask C2 (Court Judgment Prediction & Explanation). Details: https://codalab.lisn.upsaclay.fr/competitions/9558#results.
+
+### Paper
+We have been accepted and published the scientific paper at ACL : https://aclanthology.org/2023.semeval-1.119/
